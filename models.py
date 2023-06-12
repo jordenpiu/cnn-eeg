@@ -2,10 +2,10 @@ import gc
 import nndata
 from keras.models import Sequential
 from keras.layers import Dense, Flatten
-from keras.layers.wrappers import TimeDistributed
+from keras.layers import TimeDistributed
 from keras.layers.convolutional import Conv2D
 from keras.layers.pooling import AveragePooling2D
-from keras.layers.recurrent import LSTM
+from keras.layers import LSTM
 from keras import regularizers
 from keras.callbacks import ModelCheckpoint
 
